@@ -1,0 +1,146 @@
+html {
+  font-size: 65.5%;
+}
+
+.Main-Container {
+  font-family: sans-serif;
+  margin: 10%;
+  text-align: left;
+  border: 1px solid black;
+}
+p{
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.container {
+  background-color: rgba(169, 169, 169, 0.459);
+  border-style: groove;
+  display: flex;
+  align-items: stretch;
+  margin: 20px 50px;
+  padding: 1rem;
+}
+
+img {
+  height: 9.5rem;
+  width: 9.5rem;
+  border: 1px solid black;
+}
+
+.userName {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 0 5px;
+  padding: 0px;
+}
+
+.userDiscription {
+  font-size: 1rem;
+  margin: 5px;
+  padding: 0px;
+}
+
+.userDetails {
+  margin: 0 0 0 10px;
+}
+
+.inner-container {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.star {
+  display: flex;
+  margin: 10px 5px 0 5px;
+  padding: 10px;
+  border: 1px solid rgb(147, 140, 140);
+}
+
+.starNo {
+  align-items: center;
+  margin-top:1px ;
+}
+
+.issues {
+  margin: 10px 0 0 5px;
+  padding: 10px;
+  border: 1px solid rgb(147, 140, 140);
+}
+
+.lastUpdate {
+  margin: 10px 0 0 5px;
+  padding: 10px;
+  align-items: center;
+}
+
+.drillDown {
+  margin-left: auto;
+  margin-top: inherit;
+  border-style: none;
+}
+
+.menu {
+  border: 1px solid black;
+  font-size: 10px;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media (max-width:768px) {
+  .Main-Container {
+    margin: 2% 10%;
+
+  }
+  .container {
+    margin: 10px 20px;
+    padding: .5rem;
+  }
+  .userDetails {
+    margin: 0 0 0 2px;
+  }
+  html {
+    font-size: 55%;
+  }
+  .issues {
+    margin: 5px 0 0 1px;
+    padding: 5px;
+  }
+  .star {
+    margin: 5px 1px 0 2px;
+    padding: 5px;
+    border: 1px solid rgb(147, 140, 140);
+  }
+}
+@media (max-width:600px) {
+  .Main-Container {
+    margin: 1% 5%;
+  }
+  .container {
+    margin: 5px 10px;
+    padding: .25rem;
+  }
+  html {
+    font-size: 35%;
+  }
+  .userDetails {
+    margin: 0px;
+  }
+  .issues {
+    margin: 3px 0 0 1px;
+    padding: 3px;
+  }
+  .star {
+    margin: 3px 1px 0 2px;
+    padding: 3px;
+    border: 1px solid rgb(147, 140, 140);
+  }
+}
